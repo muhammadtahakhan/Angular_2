@@ -1,0 +1,5 @@
+<app-media-item 
+[ngClass]="{'medium-movies':mediaitem.medium==='Movies', 'medium-series':mediaitem.medium==='Series'}"
+*ngFor="let mediaitem of mediaItems"
+[mediaItem]="mediaitem" 
+(delete)="onMediaItemDelete($event)"></app-media-item>

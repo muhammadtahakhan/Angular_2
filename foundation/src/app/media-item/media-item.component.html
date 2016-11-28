@@ -1,0 +1,19 @@
+
+<div class="card">
+      <div class="container">
+            <h1>
+              {{mediaItem.name}}
+            </h1>
+            <h4><b>Jane Doe</b></h4> 
+            <p>Interior Designer</p> 
+            <template [ngIf]="mediaItem.wachedOn">
+            <div>{{mediaItem.wachedOn}}</div>
+            </template>
+                <div>{{mediaItem.year}}</div>
+                <div class="w3-section">
+                  <button class="w3-btn w3-green" [mwFavorite]="mediaItem.isFavorite">like</button>
+                  <button class="w3-btn w3-green" (click)="onDelete()">Remove</button>
+                  <button class="w3-btn w3-red">Watch</button>
+                </div>
+      </div>
+</div>
