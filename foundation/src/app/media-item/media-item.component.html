@@ -2,12 +2,12 @@
 <div class="card">
       <div class="container">
             <h1>
-              {{mediaItem.name}}
+              {{mediaItem.name | uppercase}}
             </h1>
             <h4><b>Jane Doe</b></h4> 
             <p>Interior Designer</p> 
             <template [ngIf]="mediaItem.wachedOn">
-            <div>{{mediaItem.wachedOn}}</div>
+            <div>{{mediaItem.wachedOn }}</div>
             </template>
                 <div>{{mediaItem.year}}</div>
                 <div class="w3-section">

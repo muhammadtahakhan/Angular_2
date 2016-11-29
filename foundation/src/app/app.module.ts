@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { MediaItemComponent } from './media-item/media-item.component';
 import { MediaItemListComponent } from './media-item-list/media-item-list.component';
 import { FavoriteDirective } from './favorite.directive';
+import { CategoryListPipe } from './category-list.pipe';
+import { MediaItemFormComponentComponent } from './media-item-form-component/media-item-form-component.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { FavoriteDirective } from './favorite.directive';
     HomeComponent,
     MediaItemComponent,
     MediaItemListComponent,
-    FavoriteDirective
+    FavoriteDirective,
+    CategoryListPipe,
+    MediaItemFormComponentComponent
   ],
   imports: [
     BrowserModule,

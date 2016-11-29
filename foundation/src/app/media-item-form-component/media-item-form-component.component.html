@@ -1,0 +1,33 @@
+<header></header>
+<form
+#mediaitemForm="ngForm"
+(ngSubmit)="onSubmit(mediaitemForm.value)"
+>
+<ul>
+  <li>
+    <label>Medium</label>
+    <select name="medium" id="medium" ngModel>
+      <option value="Movies">Movies</option>
+      <option value="Series">Series</option>
+      </select>
+  </li>
+  <li>
+    <label>name</label>
+     <input type="text" name="name" ngModel />
+  </li>
+  <li>
+    <label>Category</label>
+      <select name="Category" id="category" ngModel>
+      <option value="Action">Action</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Drama">Drama</option>
+      </select>
+    </li>
+  <li>
+    <label>Year</label>
+    <input type="text" name="year" ngModel/>
+    </li>
+</ul>
+<button type="submit">submit</button>
+
+</form>

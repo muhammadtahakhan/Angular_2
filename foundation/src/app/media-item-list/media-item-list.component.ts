@@ -10,27 +10,27 @@ export class MediaItemListComponent implements OnInit {
 
  mediaItems=[
  {  id:1,
-    name:"Firebug",
+    name:"Firebug Pakistan",
     medium:"Movies",
     category:"Science fiction",
     year:"2012",
-    wachedOn:876868,
+    wachedOn:'12-11-2016',
     isFavorite: true
   },
    {  id:2,
-    name:"Firebug2",
+    name:"firebug2",
     medium:"Series",
     category:"Science fiction",
     year:"2012",
-    wachedOn:null,
+    wachedOn:'12-11-2016',
     isFavorite: false
   },
    {  id:2,
-    name:"Firebug3",
+    name:"Firebug taha",
     medium:"Movies",
     category:"Science fiction",
     year:"2012",
-    wachedOn:56765765,
+    wachedOn:'12-11-2016',
     isFavorite: false
   }
   ]
